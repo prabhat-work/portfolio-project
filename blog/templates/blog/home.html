@@ -24,16 +24,15 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                       <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active" href="https://www.facebook.com">Facebook</a>
-                        <a class="nav-item nav-link active " href="#">Blogs</a>
+                        <a class="nav-item nav-link active " href="#">Exams</a>
                       </div>
                     </div>
+                  </header>
                   </nav>
-    </header>
     <main role="main">
 
       <section class="jumbotron text-center pt-3">
-          <h1 class="jumbotron-heading " text-align="center" >Welcome here! </h1>
+          <h1 class="jumbotron-heading " text-align="center" >Joint Entrance Examination (Main) (JEE Main)</h1>
         
 
     </main>
@@ -44,9 +43,7 @@
     <a href="{% url 'detail' blog.id%}">{{blog.title}}</a>
     <br>
   <br/>
-    <img src="{{blog.image.url}}" class="img-fluid" height="30%" width="30%" >
-     <br/>
-     <br/>
+       
      <p>{{blog.body}}</p>
      <h6>{{ blog.pub_date}}</h6>
     <hr>
